@@ -166,6 +166,8 @@ function newGame() {
   });
 }
 ```
+
+# project 5
 ```javascript
 const insert = document.getElementById('insert');
 
@@ -189,7 +191,7 @@ window.addEventListener('keydown', (e) => {
   `;
 });
 ```
-
+# project 6
 ```javascript
 //generate a random color
 
