@@ -9,11 +9,11 @@ const user = {
     }
 }
 
-// user.welcomeMessage()
-// user.username = "sam"
-// user.welcomeMessage()
+user.welcomeMessage()
+user.username = "sam"
+user.welcomeMessage()
 
-// console.log(this);
+console.log(this);
 
 // function chai(){
 //     let username = "ayushi"
@@ -44,7 +44,7 @@ const user = {
 // const addTwo = (num1, num2) => num1 + num2
 
 const addTwo = (num1, num2) => ({username: "ayushi"})
-// console.log(addTwo(3, 4));
+console.log(addTwo(3, 4));
 
 const myArray = [2, 5, 3, 7, 8]
 

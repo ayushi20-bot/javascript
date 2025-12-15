@@ -12,7 +12,17 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-// console.log(id === anotherId);
+
+console.log(typeof(id));
+
+console.log(id === anotherId);
+
+// Symbol() always creates a unique value, even with the same description.
+
+// const id = Symbol.for('123')
+// const anotherId = Symbol.for('123')
+
+// console.log(id === anotherId); // true
 
 // const BigNumber = 643763563868398787n
 
@@ -30,7 +40,7 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof id);
+
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -54,4 +64,21 @@ userTwo.email = "ayushigmail.com"
 
 console.log(userOne)
 console.log(userTwo)
+
+// Objects in JavaScript are stored in heap memory
+
+// userOne does not hold the object itself — it holds a reference (address)
+
+// userTwo = userOne means:
+
+// both variables point to the same object
+
+// let userTwo = { ...userOne }
+// or
+// let userTwo = Object.assign({}, userOne)
+
+// userTwo.email = "ayushigmail.com"
+
+// console.log(userOne) // unchanged
+// console.log(userTwo) // changed
 

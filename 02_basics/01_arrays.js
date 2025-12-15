@@ -12,8 +12,8 @@ myArr.push(6)
 myArr.push(7)
 myArr.pop()
 
-myArr.unshift(9)
-// myArr.shift()
+// myArr.unshift(9)
+myArr.shift()
 
 // console.log(myArr);
 
@@ -38,6 +38,12 @@ const myn2 = myArr.splice(1, 3)
 // console.log("C", myArr);
 // console.log(myn2);
 
+// Removes elements from the original array
+
+// Returns the removed elements
+
+// CHANGES myArr permanently
+
 
 // array part 2
 
@@ -46,14 +52,14 @@ const dc_heros = ["superman", "flash", "batman"]
 
 marvel_heros.push(dc_heros)
 
-console.log(marvel_heros);
-console.log(marvel_heros[3][1]);
+// console.log(marvel_heros);
+// console.log(marvel_heros[3][1]);
 
 const allHeros = marvel_heros.concat(dc_heros)
-console.log(allHeros);
+// console.log(allHeros);
 
 const allNewHeros = [...marvel_heros, ...dc_heros]
-console.log(allNewHeros);
+// console.log(allNewHeros);
 
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]

@@ -9,7 +9,7 @@ if(true){
 }
 // console.log(a);
 // console.log(b);
-// console.log(c);
+console.log(c);
 
 function one(){
     const username = "ayushi"
@@ -38,7 +38,7 @@ if(true){
 
 //  +++++++++++++++++++++++++++++++++++++++++ interseting ++++++++++++++++++++++++++++
 
-// console.log(addone(5));
+console.log(addone(5));
 
 function addone(num) {
     return num+1

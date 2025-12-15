@@ -16,19 +16,19 @@ const gameName = new String('ayushi-ac-com')
 // console.log(gameName.indexOf('t'));
 
 const newString = gameName.substring(0, 4)
-// console.log(newString);
+console.log(newString);
 
 const anotherString = gameName.slice(-8, 4)
-// console.log(anotherString);
+console.log(anotherString);
 
 const newStringOne = "   ayushi   "
-// console.log(newStringOne);
-// console.log(newStringOne.trim());
+console.log(newStringOne);
+console.log(newStringOne.trim());
 
 const url = "https://www.instagram.com/hateyou.ayushi?igsh=dGk3Ym0yYndvamZn"
 
-console.log(url.replace('%20', '-'));
+// console.log(url.replace('%20', '-'));
 
-console.log(url.includes('ayushi'));
+// console.log(url.includes('ayushi'));
 
-console.log(gameName.split('-'));
+// console.log(gameName.split('-'));
